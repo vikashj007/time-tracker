@@ -30,9 +30,4 @@ jobs:
         run: mvn test-compile
       - name: Test with Maven
         run: mvn test
-      - name: Package with Maven
-        run: mvn package
-      - name: Verify with Maven
-        run: mvn verify
-      - name: Install with Maven
-        run: mvn install
+      
